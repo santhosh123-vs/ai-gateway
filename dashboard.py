@@ -14,7 +14,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://ai-gateway-btj0.onrender.com"
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from app.file_processor import process_file
