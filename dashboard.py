@@ -13,7 +13,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://ai-gateway-btj0.onrender.com"
 
 # ============ CUSTOM STYLING ============
 st.markdown("""
