@@ -25,7 +25,7 @@ app = FastAPI(
     - Real-time monitoring and cost tracking
     - Multiple AI tasks: complete, summarize, classify, extract
     
-    Built by [YOUR NAME] as an AI Platform Infrastructure project.
+    Built by Kethavath Santhosh as an AI Platform Infrastructure project.
     """,
     version="1.0.0"
 )

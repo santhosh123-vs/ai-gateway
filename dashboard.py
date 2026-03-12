@@ -144,7 +144,7 @@ with st.sidebar:
     st.markdown("---")
     st.markdown(
         """
-        **Built by [YOUR NAME]**
+        **Built by Kethavath Santhosh**
         
         AI Gateway — Unified LLM API
         
