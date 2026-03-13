@@ -1,0 +1,79 @@
+{
+  "day_number": 1,
+  "streak": 1,
+  "last_active": "2026-03-12",
+  "topics_learned": [],
+  "answers_written": 0,
+  "total_answer_score": 0,
+  "mcqs_attempted": 0,
+  "mcqs_correct": 0,
+  "current_affairs_read": 0,
+  "revisions_done": 0,
+  "daily_tasks_completed": {},
+  "subject_scores": {
+    "polity": {
+      "learned": 0,
+      "total": 25,
+      "mcq_correct": 0,
+      "mcq_total": 0,
+      "answer_score": 0,
+      "answer_count": 0
+    },
+    "history": {
+      "learned": 0,
+      "total": 30,
+      "mcq_correct": 0,
+      "mcq_total": 0,
+      "answer_score": 0,
+      "answer_count": 0
+    },
+    "geography": {
+      "learned": 0,
+      "total": 25,
+      "mcq_correct": 0,
+      "mcq_total": 0,
+      "answer_score": 0,
+      "answer_count": 0
+    },
+    "economy": {
+      "learned": 0,
+      "total": 20,
+      "mcq_correct": 0,
+      "mcq_total": 0,
+      "answer_score": 0,
+      "answer_count": 0
+    },
+    "science": {
+      "learned": 0,
+      "total": 15,
+      "mcq_correct": 0,
+      "mcq_total": 0,
+      "answer_score": 0,
+      "answer_count": 0
+    },
+    "environment": {
+      "learned": 0,
+      "total": 15,
+      "mcq_correct": 0,
+      "mcq_total": 0,
+      "answer_score": 0,
+      "answer_count": 0
+    },
+    "ethics": {
+      "learned": 0,
+      "total": 15,
+      "mcq_correct": 0,
+      "mcq_total": 0,
+      "answer_score": 0,
+      "answer_count": 0
+    },
+    "current_affairs": {
+      "learned": 0,
+      "total": 50,
+      "mcq_correct": 0,
+      "mcq_total": 0,
+      "answer_score": 0,
+      "answer_count": 0
+    }
+  }
+}
