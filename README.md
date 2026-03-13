@@ -1,12 +1,12 @@
-# 🚀 AI Gateway
+# AI Gateway
 
-**Unified LLM API Service** - One API to rule them all.
+Unified LLM API Service - One API to rule them all.
 
-## 🎯 Live Demo
+## Live Demo
 
-👉 **Try it now:** https://ai-gateway-hkauqljbzn8g3fike3jxu9.streamlit.app/
+Try it now: https://ai-gateway-hkauqljbzn8g3fike3jxu9.streamlit.app/
 
-## 📊 Key Metrics
+## Key Metrics
 
 | Metric | Value |
 |--------|-------|
@@ -16,39 +16,19 @@
 | File Types Supported | 5 (PDF, Word, Excel, CSV, Images) |
 | Models Integrated | Llama 3.3 70B via Groq |
 
-## 🏗️ Architecture
-User Request
-│
-▼
-┌─────────────┐ ┌─────────────┐
-│ FastAPI │────▶│ Cache │
-│ Gateway │ │ (Redis) │
-└─────────────┘ └─────────────┘
-│
-▼
-┌─────────────┐ ┌─────────────┐
-│ Groq │────▶│ Llama 3.3 │
-│ Client │ │ 70B │
-└─────────────┘ └─────────────┘
-│
-▼
-┌─────────────┐
-│ Response │
-│ + Logging │
-└─────────────┘
+## Architecture
 
-text
+User Request --> FastAPI Gateway --> Cache Layer --> Groq Client --> Llama 3.3 70B --> Response + Logging
 
+## Features
 
-## ✨ Features
+- Unified API: Single endpoint for multiple LLM tasks
+- Smart Caching: 73% faster responses on repeated queries
+- File Processing: Upload and analyze documents
+- Monitoring Dashboard: Real-time metrics and logs
+- Cost Tracking: Monitor API usage and costs
 
-- **Unified API** - Single endpoint for multiple LLM tasks
-- **Smart Caching** - 73% faster responses on repeated queries
-- **File Processing** - Upload and analyze documents
-- **Monitoring Dashboard** - Real-time metrics and logs
-- **Cost Tracking** - Monitor API usage and costs
-
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
@@ -56,9 +36,8 @@ text
 | FastAPI | API Framework |
 | Groq | LLM Provider |
 | Streamlit | Dashboard |
-| Redis | Caching |
 
-## 📡 API Endpoints
+## API Endpoints
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
@@ -67,15 +46,13 @@ text
 | /extract | POST | Extract entities and information |
 | /complete | POST | Complete or generate text |
 
-## 🚀 Quick Start
+## Quick Start
 
 1. Clone: git clone https://github.com/santhosh123-vs/ai-gateway
 2. Install: pip install -r requirements.txt
 3. Add .env with GROQ_API_KEY
 4. Run: python main.py
 
-## 👨‍💻 Author
+## Author
 
-**Kethavath Santhosh**
-- GitHub: github.com/santhosh123-vs
-- Portfolio: 5 AI Projects Built
+Kethavath Santhosh - github.com/santhosh123-vs
